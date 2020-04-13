@@ -40,7 +40,9 @@
  *   - You still need to update my_user_config.h for major define USE_MQTT_TLS.
  *   - All parameters can be persistent changed online using commands via MQTT, WebConsole or Serial.
 \*****************************************************************************************************/
-
+#ifndef SUPPORT_MQTT_EVENT
+#define SUPPORT_MQTT_EVENT
+#endif
 /*
 Examples :
 

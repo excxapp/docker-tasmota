@@ -80,7 +80,7 @@ else
         read -p "Enter to exit, "yes" to proceed: " answer
             case ${answer:0:1} in
                 y|yes )
-                    git clone --no-single-branch --depth 1 https://github.com/arendst/Tasmota.git
+                    git clone --no-single-branch --depth 1 https://gitee.com/cmideal/Tasmota.git
                     bash $(basename $0) && exit   
                 ;;
                 * )
